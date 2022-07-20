@@ -55,4 +55,19 @@ $(document).ready(function () {
 		return new obj();
 	}();
 	mobileSidebar.init();
+
+	/*аккордеон*/
+	$(".set > .set__btn").on("click", function(){
+		if($(this).hasClass('active')) {
+			$(this).removeClass("active");
+			$(this).siblings('.set__content').slideUp(200);
+		}
+		else{
+			$(".set > .set__btn").removeClass("active");
+			$(this).addClass("active");
+			$('.set__content').slideUp(200);
+			$(this).siblings('.set__content').slideDown(200);
+		}
+		return false
+	});
 });
