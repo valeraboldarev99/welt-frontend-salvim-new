@@ -12,15 +12,16 @@
 	}
 
 	.wrapper {
-		width: 768px;
+		/*min-width: 768px;*/
+		width: 90%;
 	}
 
 	.header__left {
-		width: 180px;
+		width: 160px;
 	}
 
 	.header__right {
-		width: 550px;
+		width: 540px;
 	}
 
 	.header__lang a {
@@ -31,8 +32,12 @@
 		margin-top: 7px;
 	}
 
+	.header__social {
+		margin-left: 10px;
+	}
+
 	.header__phone {
-		margin: 0 20px 0 20px;
+		margin: 0 15px 0 15px;
 	}
 
 	.social__item {
@@ -48,7 +53,7 @@
 
 	.search {
 		width: 210px;
-		margin-left: 38px;
+		margin-left: 28px;
 	}
 
 	.search button {
@@ -133,7 +138,7 @@
 	}
 
 	.footer__item {
-		width: 18%;
+		/*width: 18%;*/
 		font-size: 9px;
 		margin-bottom: 20px;
 	}
@@ -157,6 +162,7 @@
 	.footer__contacts_link {
 		margin-left: 20px;
 		margin-bottom: 15px;
+		max-width: 150px;
 	}
 
 	.footer__contacts_link:before {
@@ -168,7 +174,11 @@
 	}
 
 	.footer .header__social {
-		width: 100%;
+		/*width: 100%;*/
+	}
+
+	.footer .social__item_footer {
+		margin-right: 10px;
 	}
 
 	.footer__products_items {
@@ -189,6 +199,11 @@
 
 	.footer__products_pic img {
 		max-height: 35px;
+	}
+
+	.footer__products_galavit img {
+		max-height: 30
+		px;
 	}
 
 	.social__item_footer,
@@ -421,6 +436,7 @@
 	.footer__contacts_link {
 		margin-left: 20px;
 		margin-bottom: 15px;
+		max-width: 100%;
 	}
 
 	.footer__contacts_link:before {
@@ -437,7 +453,7 @@
 	}
 
 	.footer .header__social {
-		width: 70%;
+		/*width: 70%;*/
 	}
 
 	.footer__item_menu {
@@ -455,8 +471,12 @@
 		width: auto;
 	}
 
+	.footer__products_galavit img {
+		max-height: 25px;
+	}
+
 	.footer .header__social {
-		width: 100%;
+		/*width: 100%;*/
 	}
 
 	.sidebar__contacts .social__item,

@@ -3,7 +3,7 @@ $(document).ready(function () {
 	$('.slider').slick({
 		slidesToScroll:1,
 		slidesToShow:1,
-		// autoplay: true,
+		autoplay: true,
 		// appendArrows:'.slider-arrows',
 		autoplaySpeed: 3000,
 		pauseOnHover:true,
