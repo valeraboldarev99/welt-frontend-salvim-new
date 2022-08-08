@@ -232,6 +232,93 @@
 	.social__item_footer:last-child {
 		margin-right: 0;
 	}
+
+	.vacancies__block {
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	.cities__block {
+		font-size: 15px;
+		margin: 20px 0;
+	}
+
+	.city__btn {
+		padding: 10px 25px;
+	}
+
+	.cities__items {
+		padding: 10px 25px;
+		max-height: 200px;
+		top: 44px;
+	}
+
+	.vacancies__item {
+		padding-bottom: 15px;
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+
+	.vacancy__name {
+		font-size: 15px;
+		padding: 5px 15px;
+	}
+
+	.vacancy__info {
+		font-size: 20px;
+	}
+
+	.link__btn {
+		padding: 5px 90px;
+	}
+
+	.link__btn:hover {
+		padding: 5px 90px;
+	}
+
+	.form__item {
+		margin-bottom: 20px;
+		padding: 10px 25px;
+		font-size: 15px;
+	}
+
+	.form__item::-webkit-input-placeholder {font-size: 15px;}
+	.form__item::-moz-placeholder          {font-size: 15px;}
+	.form__item:-moz-placeholder           {font-size: 15px;}
+	.form__item:-ms-input-placeholder      {font-size: 15px;}
+
+	.form__textarea {
+		height: 70px;
+	}
+
+	.vacancy__upload {
+		margin-bottom: 20px;
+		padding: 7px 25px 7px 0;
+		font-size: 15px;
+	}
+
+	.file__btn {
+		padding: 10px 15px;
+	}
+
+	.file__name {
+		font-size: 15px;
+	}
+
+	.btn {
+		font-size: 15px;
+		padding: 10px 25px;
+	}
+
+	.vacancy__upload__file {
+		padding: 13px 20px 13px 20px;
+		margin-bottom: 20px;
+	}
+
+	.vacancy__form .menu__btn {
+		font-size: 15px;
+		padding: 0 23px;
+	}
 }
 
 @media screen and (max-width:780px) {
@@ -632,4 +719,108 @@
 	.sidebar__contacts .social__item:hover {
 		margin: 0 7px;
 	}
+
+	/*career page*/
+	.vacancies__block {
+		width: 320px;
+	}
+
+	.cities__block {
+		font-size: 15px;
+		margin: 20px 0;
+	}
+
+	.city__btn {
+		padding: 10px 25px;
+	}
+
+	.cities__items {
+		padding: 10px 25px;
+		max-height: 150px;
+		top: 44px;
+	}
+
+	.vacancies__items {
+		margin-bottom: 10px;
+	}
+
+	.vacancies__item {
+		padding-bottom: 10px;
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.vacancy__name {
+		font-size: 15px;
+		padding: 5px 15px;
+	}
+
+	.vacancy__city {
+		padding: 0 15px;
+		margin: 5px 0 7px 0;
+	}
+
+	.vacancy__text {
+		padding: 0 15px;
+		margin: 2px 0;
+	}
+
+	.vacancy__info {
+		font-size: 18px;
+		margin: 10px 0;
+	}
+
+	.link__btn {
+		font-size: 14px;
+		padding: 5px 50px;
+	}
+
+	.link__btn:hover {
+		font-size: 14px;
+		padding: 5px 50px;
+	}
+
+	.form__item {
+		margin-bottom: 15px;
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+
+	.form__item::-webkit-input-placeholder {font-size: 14px;}
+	.form__item::-moz-placeholder          {font-size: 14px;}
+	.form__item:-moz-placeholder           {font-size: 14px;}
+	.form__item:-ms-input-placeholder      {font-size: 14px;}
+
+	.form__textarea {
+		height: 60px;
+	}
+
+	.vacancy__upload {
+		margin-bottom: 15px;
+		padding: 7px 25px 7px 0;
+		font-size: 14px;
+	}
+
+	.file__btn {
+		padding: 10px 15px;
+		margin-left: -2px;
+	}
+
+	.file__name {
+		font-size: 14px;
+		padding-left: 10px;
+		overflow: hidden;
+	}
+
+	.btn {
+		font-size: 14px;
+		padding: 10px 25px;
+	}
+
+	.vacancy__form .menu__btn {
+		font-size: 14px;
+		padding: 0 15px;
+	}
+	/*end career page*/
 }

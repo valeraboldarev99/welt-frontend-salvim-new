@@ -455,6 +455,7 @@ body {
 	margin-bottom: 15px;
 	font-weight: 700;
 	font-size: 30px;
+	color: #0067aa;
 }
 
 .content__header_green a {
@@ -761,3 +762,225 @@ body {
 }
 
 /*end mobmenu*/
+
+/*career page*/
+.vacancies__block {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.cities__block {
+	width: 100%;
+	color: #0067aa;
+	font-style: italic;
+	font-size: 18px;
+	margin: 20px 0;
+	position: relative;
+}
+
+.city__btn {
+	border: 1px solid #0067aa;
+	border-radius: 20px;
+	padding: 10px 25px;
+	cursor: pointer;
+}
+
+.cities__items {
+	display: none;
+	border: 1px solid #0067aa;
+	border-radius: 20px;
+	padding: 10px 25px;
+	max-height: 200px;
+	overflow: scroll;
+	position: absolute;
+	top: 48px;
+	width: 100%;
+	z-index: 100;
+	background: #fff;
+}
+
+.cities__block:hover .cities__items {
+	display: block;
+}
+
+.cities__items::-webkit-scrollbar {
+	width: 10px;
+	height: 0;
+}
+
+.cities__items::-webkit-scrollbar-track {
+	background: #fff;
+	margin: 15px 0;
+}
+
+.cities__items::-webkit-scrollbar-thumb {
+	background: #0067aa;
+	border-radius: 10px;
+}
+
+.cities__item {
+	cursor: pointer;
+}
+
+.vacancies__items {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+
+.vacancies__item {
+	border-radius: 20px;
+	border: 1px solid #0067aa;
+	padding-bottom: 15px;
+	margin-right: 35px;
+	position: relative;
+	width: 31%;
+	margin-bottom: 20px;
+}
+
+.vacancies__item:nth-child(3n) {
+	margin-right: 0;
+}
+
+.vacancy__name {
+	background: #0067aa;
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	border-top-right-radius: 17px;
+	border-top-left-radius: 17px;
+	padding: 5px 15px;
+	margin-left: -1px;
+	margin-right: -1px;
+}
+
+.vacancy__city {
+	padding: 0 15px;
+	font-size: 10px;
+	font-weight: 600;
+	color: #0067aa;
+	margin: 5px 0 7px 0;
+}
+
+.vacancy__text {
+	padding: 0 15px;
+	color: #0067aa;
+	font-weight: 400;
+	margin: 2px 0;
+}
+
+.vacancy__info {
+	font-size: 22px;
+	color: #0067aa;
+	margin: 20px 0;
+	display: block;
+	text-align: center;
+}
+
+.link__btn {
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	background: #0067aa;
+	border-radius: 20px;
+	padding: 5px 70px;
+	font-weight: 700;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.link__btn:hover {
+	display: inline-block;
+	font-size: 16px;
+	color: #fff;
+	background: #0d8ee3;
+	border-radius: 20px;
+	padding: 5px 70px;
+	font-weight: 700;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.form__item {
+	display: block;
+	border: 1px solid #0067aa;
+	border-radius: 20px;
+	color: #0067aa;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px 25px;
+	font-size: 18px;
+}
+
+.form__item::-webkit-input-placeholder {color:#0067aa;font-style: italic;font-size: 18px;}
+.form__item::-moz-placeholder          {color:#0067aa;font-style: italic;font-size: 18px;}
+.form__item:-moz-placeholder           {color:#0067aa;font-style: italic;font-size: 18px;}
+.form__item:-ms-input-placeholder      {color:#0067aa;font-style: italic;font-size: 18px;}
+
+.form__textarea {
+	height: 100px;
+}
+
+.form__file {
+	display: none;
+}
+
+.vacancy__upload {
+	display: block;
+	border: 1px solid #0067aa;
+	border-radius: 20px;
+	color: #0067aa;
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px 25px 7px 0;
+	font-size: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.file__btn {
+	color: #fff;
+	background: #0067aa;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 10px 15px;
+	margin-left: -2px;
+}
+
+.file__name {
+	color: #0067aa;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	background: #0067aa;
+	border-radius: 20px;
+	font-weight: 700;
+	width: 100%;
+	padding: 10px 25px;
+}
+
+.btn:hover {
+	background: #0d8ee3;
+}
+
+.vacancy__form .menu__btn {
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 46px;
+	padding: 0 23px;
+	border: 2px solid #FFFFFF;
+	text-transform: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+/*end career page*/

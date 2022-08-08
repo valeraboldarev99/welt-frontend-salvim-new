@@ -70,4 +70,25 @@ $(document).ready(function () {
 		}
 		return false
 	});
+
+	/*кастомная кнопка загрузки файлов, выводить имя файла */
+    $('input[type="file"]').change(function(e){
+        var fileName = e.target.files[0].name;
+        $("#name").html(fileName);
+    });
+
+    /*кастомный селект городов*/
+    // $(".city__btn").on("click", function() {
+    // 	if($('.cities__items').css('display') == 'none')
+    // 	{
+    // 		$('.cities__items').css('display', 'block');
+    		$('.cities__item').on("click", function() {
+    			var checked__city_id = $(this).attr('id');
+    			$('#js-city__btn').html(checked__city_id);
+    		});
+    // 	}
+    // 	else {
+    // 		$('.cities__items').css('display', 'none');
+    // 	}
+    // });
 });
