@@ -19,6 +19,46 @@ $(document).ready(function () {
 		]
 	});
 
+	// слaйдер на странице компании
+	$('.slider__digitals').slick({
+		slidesToScroll:1,
+		slidesToShow:10,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		pauseOnHover:true,
+		arrows:false,
+		dots:false,
+		focusOnSelect: true,
+		asNavFor: '.slider__digitals_content',
+		responsive: [
+			{
+				breakpoint: 1300,
+				settings: {
+					slidesToShow:5,
+					arrows:false,
+				}
+			},
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow:3,
+					arrows:false,
+				}
+			}
+		]
+	});
+
+	$('.slider__digitals_content').slick({
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    arrows: false,
+	    dots:false,
+	    draggable:false,
+	    // autoplay: true,
+	    fade: true,
+	    asNavFor: '.slider__digitals'
+	});
+
 	/*мобильное меню*/
 	var mobileSidebar = function()
 	{

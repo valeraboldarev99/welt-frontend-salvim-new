@@ -319,6 +319,113 @@
 		font-size: 15px;
 		padding: 0 23px;
 	}
+
+	/*company page*/
+	.company__blocks {
+		margin: 30px 0;
+	}
+
+	.company__blocks_item {
+		height: 180px;
+		padding: 15px 15px;
+	}
+
+	.company__blocks_item:first-child {
+		padding: 30px 22px;
+	}
+
+	.company__blocks_big {
+		font-size: 25px;
+	}
+
+	.company__blocks_header {
+		font-size: 13px;
+	}
+
+	.company__blocks_text {
+		font-size: 11px;
+	}
+
+	.company__pptx {
+		font-size: 25px;
+	}
+
+	.company__pptx:after {
+		top: -6px;
+		right: -40px;
+		width: 30px;
+		height: 34px;
+	}
+
+	.company__link {
+		margin-bottom: 40px;
+	}
+
+	.digitals__block {
+		padding: 25px 0;
+	}
+
+	.digitals__header {
+		font-size: 25px;
+	}
+
+	.slide__year {
+		font-size: 25px;
+	}
+
+	.slider__digitals_block .slick-current .slide__year {
+		margin-top: -7px;
+		font-size: 30px;
+	}
+
+	.slide__content {
+		margin-top: 40px;
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+
+	.company__files {
+		margin: 30px 0;
+	}
+
+	.company__files_links {
+		margin-right: 25px;
+	}
+
+	.company__files_link {
+		font-size: 18px;
+	}
+
+	.company__files_img {
+		margin-right: 20px;
+		width: 35%;
+	}
+
+	.company__licenses {
+		margin-bottom: 50px;
+	}
+
+	.company__license {
+		width: 45%;
+	}
+
+	.company__production-year_items {
+		margin-bottom: 40px;
+	}
+
+	.company__production-year_items .company__production_item {
+		margin-right: 10px;
+	}
+
+	.company__production_header {
+		font-size: 25px;
+	}
+
+	.green__text {
+		color: #8cc63f;
+	}
+
+	/*end company page*/
 }
 
 @media screen and (max-width:780px) {
@@ -823,4 +930,146 @@
 		padding: 0 15px;
 	}
 	/*end career page*/
+	/*company page*/
+	.company__blocks {
+		margin: 0;
+		flex-wrap: wrap;
+	}
+
+	.company__block_items {
+		width: 100%;
+		margin: 20px 0 0 0;
+	}
+
+	.company__blocks_item {
+		width: 48%;
+		height: 150px;
+		padding: 10px 10px;
+	}
+
+	.company__blocks_item:first-child {
+		width: 100%;
+		margin-bottom: 15px;
+		padding: 10px 30px;
+	}
+
+	.company__blocks_big {
+		font-size: 20px;
+	}
+
+	.company__blocks_header {
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+	.company__blocks_text {
+		font-size: 10px;
+	}
+
+	.company__pptx {
+		font-size: 16px;
+	}
+
+	.company__pptx:after {
+		top: -4px;
+		right: -30px;
+		width: 20px;
+		height: 23px;
+	}
+
+	.company__link {
+		margin-bottom: 25px;
+	}
+
+	.digitals__header {
+		font-size: 22px;
+	}
+
+	.slider__digitals {
+		margin-top: 30px;
+	}
+
+	.slide__year {
+		font-size: 20px;
+	}
+
+	.slider__digitals_block .slick-current .slide__year {
+		margin-top: -6px;
+		font-size: 25px;
+	}
+
+	.slide__content {
+		margin-top: 30px;
+		margin-bottom: 20px;
+		font-size: 14px;
+	}
+
+	.company__files {
+		margin: 30px 0;
+		flex-wrap: wrap;
+	}
+
+	.company__files_links {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.company__files_link {
+		width: 100%;
+		font-size: 18px;
+		margin: 0 0 15px 0;
+	}
+
+	.company__files_imgs {
+		width: 100%;
+		margin: 15px 0;
+		justify-content: space-between;
+	}
+
+	.company__files_img {
+		margin-right: 0;
+		width: 40%;
+	}
+
+	.company__licenses {
+		margin-bottom: 20px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.company__license {
+		width: 80%;
+		margin-bottom: 20px;
+	}
+
+	.company__production_items {
+		flex-wrap: wrap;
+	}
+
+	.company__production-year_items {
+		margin-bottom: 40px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.company__production-year_items .company__production_item {
+		margin-right: 0
+	}
+
+	.company__production_item {
+		width: 49%;
+		margin-bottom: 10px;
+	}
+
+	.company__production_header {
+		margin: 20px 0;
+		font-size: 22px;
+		line-height: 25px;
+	}
+
+	.green__text {
+		color: #8cc63f;
+	}
+
+	/*end company page*/
 }
