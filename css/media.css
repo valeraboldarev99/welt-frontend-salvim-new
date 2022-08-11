@@ -325,27 +325,6 @@
 		margin: 30px 0;
 	}
 
-	.company__blocks_item {
-		height: 180px;
-		padding: 15px 15px;
-	}
-
-	.company__blocks_item:first-child {
-		padding: 30px 22px;
-	}
-
-	.company__blocks_big {
-		font-size: 25px;
-	}
-
-	.company__blocks_header {
-		font-size: 13px;
-	}
-
-	.company__blocks_text {
-		font-size: 11px;
-	}
-
 	.company__pptx {
 		font-size: 25px;
 	}
@@ -384,6 +363,11 @@
 		font-size: 18px;
 	}
 
+	.production_gmp {
+		width: 40%;
+		margin: 25px 0;
+	}
+
 	.company__files {
 		margin: 30px 0;
 	}
@@ -394,19 +378,6 @@
 
 	.company__files_link {
 		font-size: 18px;
-	}
-
-	.company__files_img {
-		margin-right: 20px;
-		width: 35%;
-	}
-
-	.company__licenses {
-		margin-bottom: 50px;
-	}
-
-	.company__license {
-		width: 45%;
 	}
 
 	.company__production-year_items {
@@ -943,27 +914,11 @@
 
 	.company__blocks_item {
 		width: 48%;
-		height: 150px;
-		padding: 10px 10px;
 	}
 
 	.company__blocks_item:first-child {
 		width: 100%;
 		margin-bottom: 15px;
-		padding: 10px 30px;
-	}
-
-	.company__blocks_big {
-		font-size: 20px;
-	}
-
-	.company__blocks_header {
-		font-size: 15px;
-		line-height: 20px;
-	}
-
-	.company__blocks_text {
-		font-size: 10px;
 	}
 
 	.company__pptx {
@@ -1004,6 +959,31 @@
 		font-size: 14px;
 	}
 
+	.production__images {
+		flex-wrap: wrap;
+	}
+
+	.production__images img {
+		width: 30%;
+		margin-right: 15px;
+	}
+
+	.production__images img:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	.production_gmp {
+		width: 50%;
+		margin: 25px 0;
+	}
+
+	.production__license {
+		width: 60%;
+		display: inline-block;
+		margin: 25px 0 25px 50%;
+		transform: translateX(-50%);
+	}
+
 	.company__files {
 		margin: 30px 0;
 		flex-wrap: wrap;
@@ -1018,28 +998,6 @@
 		width: 100%;
 		font-size: 18px;
 		margin: 0 0 15px 0;
-	}
-
-	.company__files_imgs {
-		width: 100%;
-		margin: 15px 0;
-		justify-content: space-between;
-	}
-
-	.company__files_img {
-		margin-right: 0;
-		width: 40%;
-	}
-
-	.company__licenses {
-		margin-bottom: 20px;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	.company__license {
-		width: 80%;
-		margin-bottom: 20px;
 	}
 
 	.company__production_items {
@@ -1071,5 +1029,23 @@
 		color: #8cc63f;
 	}
 
+	.company__news_images {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.company__news_images img {
+		width: 55%;
+		margin: 15px 0;
+	}
+
+	.company__partners_items {
+
+	}
+
+	.company__partners_item {
+		width: 40%;
+		margin: 15px 0;
+	}
 	/*end company page*/
 }

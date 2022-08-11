@@ -1002,54 +1002,18 @@ body {
 .company__blocks_item {
 	width: 48%;
 	color: #fff;
-	height: 250px;
-	padding: 30px 30px;
 	display: flex;
-	align-items: stretch;
 	flex-wrap: wrap;
 }
 
 .company__blocks_item:first-child {
 	width: 100%;
 	margin-bottom: 20px;
-	padding: 30px 66px;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-
-.company__blocks_big {
-	text-transform: uppercase;
-	font-size: 35px;
-	font-weight: 800;
-}
-
-.company__blocks_header {
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 800;
-	width: 100%;
-	line-height: 25px;
-}
-
-.company__blocks_text {
-	font-size: 14px;
-	font-weight: 400;
-	width: 100%;
-	display: flex;
-	align-items: flex-end;
-}
-
-.company__block_lightblue { background: #0372aa; }
-
-.company__block_green { background: #35a0aa; }
-
-.company__block_greenlime { background: #2fad6e; }
-
-.company__block_purple { background: #2f308a; }
-
-.company__block_orange { background: #f2921a; }
 
 .company__block_img {
 	padding: 0!important;
@@ -1136,6 +1100,16 @@ body {
 	font-size: 22px;
 }
 
+.production_gmp {
+	width: 30%;
+	margin: 25px 0;
+}
+
+.production__license {
+	width: 40%;
+	margin: 25px 0;
+}
+
 .company__files {
 	display: flex;
 	justify-content: flex-start;
@@ -1152,31 +1126,31 @@ body {
 	font-weight: 600;
 }
 
-.company__files_imgs {
+.company__files_link a {
+	border-bottom: 2px solid #0067aa;
+	padding-bottom: 1px;
+}
+
+.company__files_link .green__text,
+.company__files_link a:hover {
+	border-bottom: 2px solid #8cc63f;
+}
+
+.production__images {
 	display: flex;
 	justify-content: flex-start;
 }
 
-.company__files_img {
-	margin-right: 20px;
-	width: 100%;
-	height: auto;
-}
-
-.company__licenses {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 70px;
-}
-
-.company__license {
-	width: 47%;
+.production__images img {
+	width: 12%;
+	margin-right: 25px;
 }
 
 .company__production_items {
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
+	margin: 25px 0;
 }
 
 .company__production-year_items {
@@ -1202,6 +1176,39 @@ body {
 
 .green__text {
 	color: #8cc63f;
+}
+
+.company__partners_items {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.company__partners_item {
+	width: 22%;
+	position: relative;
+	margin: 15px 0;
+}
+
+.company__partners_item:hover {
+	transform: scale(1.1);
+	bkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.company__news_images {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 25px 0;
+}
+
+.company__news_images img {
+	width: 25%;
 }
 
 /*end company page*/
