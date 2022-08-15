@@ -239,18 +239,18 @@
 	}
 
 	.cities__block {
-		font-size: 15px;
 		margin: 20px 0;
 	}
 
 	.city__btn {
+		font-size: 18px;
 		padding: 10px 25px;
 	}
 
 	.cities__items {
 		padding: 10px 25px;
 		max-height: 200px;
-		top: 44px;
+		top: 48px;
 	}
 
 	.vacancies__item {
@@ -260,7 +260,6 @@
 	}
 
 	.vacancy__name {
-		font-size: 15px;
 		padding: 5px 15px;
 	}
 
@@ -279,7 +278,6 @@
 	.form__item {
 		margin-bottom: 20px;
 		padding: 10px 25px;
-		font-size: 15px;
 	}
 
 	.form__item::-webkit-input-placeholder {font-size: 15px;}
@@ -294,19 +292,13 @@
 	.vacancy__upload {
 		margin-bottom: 20px;
 		padding: 7px 25px 7px 0;
-		font-size: 15px;
 	}
 
 	.file__btn {
 		padding: 10px 15px;
 	}
 
-	.file__name {
-		font-size: 15px;
-	}
-
 	.btn {
-		font-size: 15px;
 		padding: 10px 25px;
 	}
 
@@ -316,7 +308,6 @@
 	}
 
 	.vacancy__form .menu__btn {
-		font-size: 15px;
 		padding: 0 23px;
 	}
 
@@ -326,14 +317,14 @@
 	}
 
 	.company__pptx {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.company__pptx:after {
-		top: -6px;
-		right: -40px;
-		width: 30px;
-		height: 34px;
+		top: -3px;
+		right: -30px;
+		width: 20px;
+		height: 25px;
 	}
 
 	.company__link {
@@ -368,6 +359,24 @@
 		margin: 25px 0;
 	}
 
+	.license__block {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.license__item {
+		width: 48%;
+	}
+
+	.production__images {
+		justify-content: space-around;
+	}
+
+	.production__images img {
+		width: 25%;
+		margin-right: 0;
+	}
+
 	.company__files {
 		margin: 30px 0;
 	}
@@ -376,8 +385,8 @@
 		margin-right: 25px;
 	}
 
-	.company__files_link {
-		font-size: 18px;
+	.company__production_header {
+		font-size: 22px;
 	}
 
 	.company__production-year_items {
@@ -386,10 +395,6 @@
 
 	.company__production-year_items .company__production_item {
 		margin-right: 10px;
-	}
-
-	.company__production_header {
-		font-size: 25px;
 	}
 
 	.green__text {
@@ -497,13 +502,6 @@
 	.text__bottom {
 		bottom: 45px;
 	}
-
-	.content__header {
-		margin-top: 50px;
-		margin-bottom: 15px;
-		font-size: 25px;
-	}
-
 
 	.slick-dots {
 		bottom: 20px;
@@ -804,18 +802,18 @@
 	}
 
 	.cities__block {
-		font-size: 15px;
 		margin: 20px 0;
 	}
 
 	.city__btn {
-		padding: 10px 25px;
+		font-size: 15px;
+		padding: 10px 15px;
 	}
 
 	.cities__items {
-		padding: 10px 25px;
+		padding: 7px 15px;
 		max-height: 150px;
-		top: 44px;
+		top: 43px;
 	}
 
 	.vacancies__items {
@@ -830,7 +828,6 @@
 	}
 
 	.vacancy__name {
-		font-size: 15px;
 		padding: 5px 15px;
 	}
 
@@ -850,19 +847,16 @@
 	}
 
 	.link__btn {
-		font-size: 14px;
 		padding: 5px 50px;
 	}
 
 	.link__btn:hover {
-		font-size: 14px;
 		padding: 5px 50px;
 	}
 
 	.form__item {
 		margin-bottom: 15px;
 		padding: 10px 15px;
-		font-size: 14px;
 	}
 
 	.form__item::-webkit-input-placeholder {font-size: 14px;}
@@ -877,27 +871,23 @@
 	.vacancy__upload {
 		margin-bottom: 15px;
 		padding: 7px 25px 7px 0;
-		font-size: 14px;
 	}
 
 	.file__btn {
-		padding: 10px 15px;
+		padding: 9px 15px;
 		margin-left: -2px;
 	}
 
 	.file__name {
-		font-size: 14px;
 		padding-left: 10px;
 		overflow: hidden;
 	}
 
 	.btn {
-		font-size: 14px;
 		padding: 10px 25px;
 	}
 
 	.vacancy__form .menu__btn {
-		font-size: 14px;
 		padding: 0 15px;
 	}
 	/*end career page*/
@@ -922,14 +912,14 @@
 	}
 
 	.company__pptx {
-		font-size: 16px;
+		font-size: 12px;
 	}
 
 	.company__pptx:after {
-		top: -4px;
-		right: -30px;
-		width: 20px;
-		height: 23px;
+		top: -2px;
+		right: -25px;
+		width: 15px;
+		height: 20px;
 	}
 
 	.company__link {
@@ -937,7 +927,7 @@
 	}
 
 	.digitals__header {
-		font-size: 22px;
+		font-size: 14px;
 	}
 
 	.slider__digitals {
@@ -945,12 +935,12 @@
 	}
 
 	.slide__year {
-		font-size: 20px;
+		font-size: 14px;
 	}
 
 	.slider__digitals_block .slick-current .slide__year {
-		margin-top: -6px;
-		font-size: 25px;
+		margin-top: -3px;
+		font-size: 18px;
 	}
 
 	.slide__content {
@@ -977,8 +967,17 @@
 		margin: 25px 0;
 	}
 
+	.license__block {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.license__item {
+		width: 100%;
+	}
+
 	.production__license {
-		width: 60%;
+		width: 80%;
 		display: inline-block;
 		margin: 25px 0 25px 50%;
 		transform: translateX(-50%);
@@ -996,7 +995,6 @@
 
 	.company__files_link {
 		width: 100%;
-		font-size: 18px;
 		margin: 0 0 15px 0;
 	}
 
@@ -1021,8 +1019,8 @@
 
 	.company__production_header {
 		margin: 20px 0;
-		font-size: 22px;
 		line-height: 25px;
+		font-size: 13px;
 	}
 
 	.green__text {

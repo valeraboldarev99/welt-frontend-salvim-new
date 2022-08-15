@@ -774,7 +774,7 @@ body {
 	width: 100%;
 	color: #0067aa;
 	font-style: italic;
-	font-size: 18px;
+	/*font-size: 18px;*/
 	margin: 20px 0;
 	position: relative;
 }
@@ -782,19 +782,20 @@ body {
 .city__btn {
 	border: 1px solid #0067aa;
 	border-radius: 20px;
-	padding: 10px 25px;
+	padding: 10px 20px;
 	cursor: pointer;
+	font-size: 20px;
 }
 
 .cities__items {
 	display: none;
 	border: 1px solid #0067aa;
 	border-radius: 20px;
-	padding: 10px 25px;
+	padding: 10px 20px;
 	max-height: 200px;
 	overflow: scroll;
 	position: absolute;
-	top: 48px;
+	top: 50px;
 	width: 100%;
 	z-index: 100;
 	background: #fff;
@@ -848,7 +849,6 @@ body {
 	background: #0067aa;
 	color: #fff;
 	font-weight: 600;
-	font-size: 18px;
 	border-top-right-radius: 17px;
 	border-top-left-radius: 17px;
 	padding: 5px 15px;
@@ -904,6 +904,7 @@ body {
 }
 
 .form__item {
+	font-family: 'Inter';
 	display: block;
 	border: 1px solid #0067aa;
 	border-radius: 20px;
@@ -911,7 +912,6 @@ body {
 	width: 100%;
 	margin-bottom: 20px;
 	padding: 10px 25px;
-	font-size: 18px;
 }
 
 .form__item::-webkit-input-placeholder {color:#0067aa;font-style: italic;font-size: 18px;}
@@ -921,6 +921,7 @@ body {
 
 .form__textarea {
 	height: 100px;
+	font-family: 'Inter';
 }
 
 .form__file {
@@ -935,9 +936,7 @@ body {
 	width: 100%;
 	margin-bottom: 20px;
 	padding: 7px 25px 7px 0;
-	font-size: 18px;
 	white-space: nowrap;
-	overflow: hidden;
 }
 
 .file__btn {
@@ -951,7 +950,6 @@ body {
 
 .file__name {
 	color: #0067aa;
-	font-size: 18px;
 	padding-left: 15px;
 }
 
@@ -959,7 +957,6 @@ body {
 	border: none;
 	outline: none;
 	display: inline-block;
-	font-size: 18px;
 	color: #fff;
 	background: #0067aa;
 	border-radius: 20px;
@@ -976,7 +973,6 @@ body {
 	color: #fff;
 	display: inline-block;
 	text-decoration: none;
-	font-size: 18px;
 	line-height: 46px;
 	padding: 0 23px;
 	border: 2px solid #FFFFFF;
@@ -1028,7 +1024,7 @@ body {
 
 .company__pptx {
 	text-transform: uppercase;
-	font-size: 35px;
+	font-size: 22px;
 	color: #0067aa;
 	font-weight: 600;
 	position: relative;
@@ -1037,10 +1033,10 @@ body {
 .company__pptx:after {
 	content: '';
 	position: absolute;
-	top: -8px;
-	right: -50px;
-	width: 40px;
-	height: 45px;
+	top: -5px;
+	right: -35px;
+	width: 25px;
+	height: 30px;
 	background: url('../img/download.svg') center center no-repeat;
 	background-size: contain;
 }
@@ -1065,7 +1061,7 @@ body {
 	text-align: center;
 	color: #fff;
 	margin-top: 0;
-	font-size: 30px;
+	font-size: 26px;
 }
 
 .slider__digitals_block {
@@ -1083,11 +1079,11 @@ body {
 
 .slide__year {
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 26px;
 }
 
 .slider__digitals_block .slick-current .slide__year {
-	margin-top: -6px;
+	margin-top: -8px;
 	font-size: 35px;
 	font-weight: 600;
 }
@@ -1100,13 +1096,22 @@ body {
 	font-size: 22px;
 }
 
+.license__block {
+	display: flex;
+	justify-content: space-between;
+}
+
+.license__item {
+	width: 45%;
+}
+
 .production_gmp {
 	width: 30%;
 	margin: 25px 0;
 }
 
 .production__license {
-	width: 40%;
+	width: 100%;
 	margin: 25px 0;
 }
 
@@ -1122,8 +1127,8 @@ body {
 }
 
 .company__files_link {
-	font-size: 30px;
 	font-weight: 600;
+	margin: 10px 0;
 }
 
 .company__files_link a {
@@ -1139,11 +1144,16 @@ body {
 .production__images {
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 .production__images img {
-	width: 12%;
-	margin-right: 25px;
+	width: 15%;
+	margin-right: 15px;
+}
+
+.production__images img:last-child {
+	margin-right: 0;
 }
 
 .company__production_items {
@@ -1171,7 +1181,7 @@ body {
 .company__production_header {
 	text-align: center;
 	margin: 30px 0;
-	font-size: 35px;
+	font-size: 24px;
 }
 
 .green__text {
