@@ -372,11 +372,6 @@
 		justify-content: space-around;
 	}
 
-	.production__images img {
-		width: 25%;
-		margin-right: 0;
-	}
-
 	.company__files {
 		margin: 30px 0;
 	}
@@ -949,17 +944,8 @@
 		font-size: 14px;
 	}
 
-	.production__images {
-		flex-wrap: wrap;
-	}
-
 	.production__images img {
-		width: 30%;
-		margin-right: 15px;
-	}
-
-	.production__images img:nth-child(3n) {
-		margin-right: 0;
+		width: 45%;
 	}
 
 	.production_gmp {

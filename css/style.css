@@ -1143,12 +1143,12 @@ body {
 
 .production__images {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
 .production__images img {
-	width: 15%;
+	width: 30%;
 	margin-right: 15px;
 }
 
@@ -1201,9 +1201,9 @@ body {
 	margin: 15px 0;
 }
 
-.company__partners_item:hover {
+.company__partners_item-link:hover {
 	transform: scale(1.1);
-	bkit-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
