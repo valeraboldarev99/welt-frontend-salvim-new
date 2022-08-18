@@ -1041,7 +1041,11 @@ body {
 	background-size: contain;
 }
 
-.company__pptx:hover:after {
+.company__link:hover .company__pptx {
+	color: #8cc63f;
+}
+
+.company__link:hover .company__pptx:after {
 	background: url('../img/download_hover.svg') center center no-repeat;
 	background-size: contain;
 }
@@ -1049,10 +1053,19 @@ body {
 .company__link {
 	text-align: center;
 	margin-bottom: 50px;
+	position: relative;
+}
+
+.company__img {
+	width: 40%;
+	display: block;
+	margin-left: 50%;
+	margin-bottom: 15px;
+	transform: translateX(-50%);
 }
 
 .digitals__block {
-	background: #00a910;
+	background: #0067aa;
 	color: #fff;
 	padding: 25px 0;
 }
@@ -1235,6 +1248,11 @@ body {
 
 .company__news_images img {
 	width: 25%;
+}
+
+.about_img {
+	width: 100%;
+	margin-bottom: 25px;
 }
 
 /*end company page*/
